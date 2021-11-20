@@ -1,8 +1,8 @@
 package main
 
 import (
-	"git.wisecar.co/wisecar/web-api-golang/common"
-	"git.wisecar.co/wisecar/web-api-golang/config"
+	"github.com/ZhechunZhou/personal_frontpage_backend/common"
+	"github.com/ZhechunZhou/personal_frontpage_backend/config"
 )
 
 func main() {

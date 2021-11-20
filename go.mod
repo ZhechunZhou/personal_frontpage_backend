@@ -1,4 +1,4 @@
-module github
+module github.com/ZhechunZhou/personal_frontpage_backend
 
 go 1.17
 
@@ -8,6 +8,7 @@ require (
 	github.com/gin-gonic/gin v1.7.4
 	github.com/go-playground/validator/v10 v10.9.0
 	github.com/google/uuid v1.3.0
+	github.com/stripe/stripe-go/v72 v72.75.0
 	gorm.io/driver/mysql v1.1.2
 	gorm.io/gorm v1.22.2
 )
@@ -38,7 +39,6 @@ require (
 	github.com/rs/xid v1.2.1 // indirect
 	github.com/segmentio/ksuid v1.0.3 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
-	github.com/stripe/stripe-go/v72 v72.75.0 // indirect
 	github.com/ugorji/go/codec v1.2.6 // indirect
 	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
 	golang.org/x/net v0.0.0-20210614182718-04defd469f4e // indirect
