@@ -2,7 +2,6 @@ package common
 
 import (
 	"fmt"
-	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
 
@@ -44,9 +43,9 @@ func GetDb() *gorm.DB {
 }
 
 func ConnectDb(host, dbName, user, password string) {
-	connect, err := gorm.Open(mysql.Open(dbURL(buildDBConfig(host, dbName, user, password))), &gorm.Config{})
-	db = connect
-	if err != nil {
-		fmt.Println("status: ", err)
-	}
+	//connect, err := gorm.Open(mysql.Open(dbURL(buildDBConfig(host, dbName, user, password))), &gorm.Config{})
+	//db = connect
+	//if err != nil {
+	//	fmt.Println("status: ", err)
+	//}
 }

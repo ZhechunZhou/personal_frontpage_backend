@@ -24,7 +24,7 @@ func SetupRouter() *gin.Engine {
 		MaxAge:           12 * time.Hour,
 	}))
 
-	v1 := router.Group("/api/v1")
+	//v1 := router.Group("/api/v1")
 
 	//public  group
 

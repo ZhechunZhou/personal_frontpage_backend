@@ -14,9 +14,6 @@ func main() {
 
 	//set up s3 bucket
 	common.Builds3Config(conf.AWSAccessKeyID, conf.AWSSecretAccessKey, conf.AWSRegion, conf.AWSBucket)
-	//set up keyClock
-	common.ConnectKeyCloak(conf.CloakClientRealm, conf.CloakUrl, conf.CloakUser, conf.CloakPassword, conf.CloakAdminCliId, conf.ClockAdminCliSecret)
-
 	//set up stripe
 	common.SetUpStrip()
 	mainRouter := config.SetupRouter()
